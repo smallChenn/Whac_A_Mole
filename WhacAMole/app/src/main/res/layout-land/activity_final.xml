@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/molebg_land"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radio_group"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="easy_mode"
+            android:textColor="#3a21d9"
+            android:checked="false"
+            android:id="@+id/easy_rb" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="normal_mode"
+            android:textColor="#20f519"
+            android:checked="false"
+            android:id="@+id/normal_rb" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hard_mode"
+            android:textColor="#f50f54"
+            android:checked="false"
+            android:id="@+id/hard_rb" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hell_mode"
+            android:textColor="#ee13d1"
+            android:checked="false"
+            android:id="@+id/hell_rb" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="New Game"
+        android:background="#aa2f38e6"
+        android:textColor="#ffffff"
+        android:id="@+id/new_game_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/isWinTw"
+        android:background="#aa2f38e6"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/new_game_button"
+        android:layout_alignEnd="@+id/new_game_button"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="74dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="#aa2f38e6"
+        android:textColor="#ffffff"
+        android:text="Exit To Main Menu"
+        android:id="@+id/exitToMainMenuButton" />
+        android:text="New Button"
+        android:id="@+id/button2" />
+
+</RelativeLayout>
